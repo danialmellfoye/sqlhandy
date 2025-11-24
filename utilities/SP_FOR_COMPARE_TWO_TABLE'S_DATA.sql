@@ -9,7 +9,7 @@ GO
 CREATE PROC [dbo].[USP_CompareTableData] (
 	@LeftTable VARCHAR(128),
 	@RightTable VARCHAR(128),
-	@UniqueJoinColumns VARCHAR(500),  -- Multiple join columns (comma seperated)
+	@UniqueJoinColumns VARCHAR(500),  -- Multiple join columns (comma seperated) c
 	@IgnoreColumns VARCHAR(500),
 	@FilterByStatus VARCHAR (500) --Multiple filter (& seperated and condition, | seperated for or condition)
 )
